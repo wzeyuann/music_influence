@@ -1,0 +1,189 @@
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Buster Smith,http://www.allmusic.com/artist/buster-smith-mn0000643597,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Jay McShann,http://www.allmusic.com/artist/jay-mcshann-mn0000225389,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Johnny Hodges,http://www.allmusic.com/artist/johnny-hodges-mn0000526407,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Louis Armstrong,http://www.allmusic.com/artist/louis-armstrong-mn0000234518,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Roy Eldridge,http://www.allmusic.com/artist/roy-eldridge-mn0000346637,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Cannonball Adderley,http://www.allmusic.com/artist/cannonball-adderley-mn0000548338
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Eric Dolphy,http://www.allmusic.com/artist/eric-dolphy-mn0000800100
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Jackie McLean,http://www.allmusic.com/artist/jackie-mclean-mn0000127949
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Lee Konitz,http://www.allmusic.com/artist/lee-konitz-mn0000227776
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Lou Donaldson,http://www.allmusic.com/artist/lou-donaldson-mn0000808198
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Miles Davis,http://www.allmusic.com/artist/miles-davis-mn0000423829
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Phil Woods,http://www.allmusic.com/artist/phil-woods-mn0000848572
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Sonny Rollins,http://www.allmusic.com/artist/sonny-rollins-mn0000039656
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Sonny Stitt,http://www.allmusic.com/artist/sonny-stitt-mn0000044290
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Albert Ayler,http://www.allmusic.com/artist/albert-ayler-mn0000614339
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Branford Marsalis,http://www.allmusic.com/artist/branford-marsalis-mn0000045379
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Charles McPherson,http://www.allmusic.com/artist/charles-mcpherson-mn0000206020
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Frank Morgan,http://www.allmusic.com/artist/frank-morgan-mn0000173007
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,Herbie Hancock,http://www.allmusic.com/artist/herbie-hancock-mn0000957296
+Duke Ellington,http://www.allmusic.com/artist/duke-ellington-mn0000120323,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+Earl Hines,http://www.allmusic.com/artist/earl-hines-mn0000455522,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+Fats Waller,http://www.allmusic.com/artist/fats-waller-mn0000162762,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+James P. Johnson,http://www.allmusic.com/artist/james-p-johnson-mn0000142860,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+Luckey Roberts,http://www.allmusic.com/artist/luckey-roberts-mn0000303166,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+Jelly Roll Morton,http://www.allmusic.com/artist/jelly-roll-morton-mn0000317290,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+Louis Armstrong,http://www.allmusic.com/artist/louis-armstrong-mn0000234518,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+"Willie ""The Lion"" Smith",http://www.allmusic.com/artist/willie-the-lion-smith-mn0000687935,Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Ahmad Jamal,http://www.allmusic.com/artist/ahmad-jamal-mn0000127369
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Brad Mehldau,http://www.allmusic.com/artist/brad-mehldau-mn0000934305
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Bud Powell,http://www.allmusic.com/artist/bud-powell-mn0000640675
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Chick Corea,http://www.allmusic.com/artist/chick-corea-mn0000110541
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Keith Jarrett,http://www.allmusic.com/artist/keith-jarrett-mn0000066570
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Kenny Barron,http://www.allmusic.com/artist/kenny-barron-mn0000081181
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Lennie Tristano,http://www.allmusic.com/artist/lennie-tristano-mn0000242966
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,McCoy Tyner,http://www.allmusic.com/artist/mccoy-tyner-mn0000868092
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Milt Jackson,http://www.allmusic.com/artist/milt-jackson-mn0000489845
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Oscar Peterson,http://www.allmusic.com/artist/oscar-peterson-mn0000489316
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,"Phineas Newborn, Jr.",http://www.allmusic.com/artist/phineas-newborn-jr-mn0000335889
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Steve Kuhn,http://www.allmusic.com/artist/steve-kuhn-mn0000036645
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Sun Ra,http://www.allmusic.com/artist/sun-ra-mn0000924232
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Tommy Flanagan,http://www.allmusic.com/artist/tommy-flanagan-mn0000519715
+Fats Waller,http://www.allmusic.com/artist/fats-waller-mn0000162762,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+James P. Johnson,http://www.allmusic.com/artist/james-p-johnson-mn0000142860,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+"Willie ""The Lion"" Smith",http://www.allmusic.com/artist/willie-the-lion-smith-mn0000687935,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+Bennie Moten,http://www.allmusic.com/artist/bennie-moten-mn0000129652,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+Jelly Roll Morton,http://www.allmusic.com/artist/jelly-roll-morton-mn0000317290,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+W.C. Handy,http://www.allmusic.com/artist/wc-handy-mn0000195430,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+Walter Page,http://www.allmusic.com/artist/walter-page-mn0000192415,Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Thelonious Monk,http://www.allmusic.com/artist/thelonious-monk-mn0000490416
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Gerald Wilson,http://www.allmusic.com/artist/gerald-wilson-mn0000946171
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Harry James,http://www.allmusic.com/artist/harry-james-mn0000950571
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,John Lewis,http://www.allmusic.com/artist/john-lewis-mn0000424292
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Johnny Otis,http://www.allmusic.com/artist/johnny-otis-mn0000819894
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Lincoln Center Jazz Orchestra,http://www.allmusic.com/artist/lincoln-center-jazz-orchestra-mn0000292564
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Milt Buckner,http://www.allmusic.com/artist/milt-buckner-mn0000489843
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Oliver Nelson,http://www.allmusic.com/artist/oliver-nelson-mn0000398615
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Quincy Jones,http://www.allmusic.com/artist/quincy-jones-mn0000378624
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Ray Charles,http://www.allmusic.com/artist/ray-charles-mn0000046861
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Stan Kenton,http://www.allmusic.com/artist/stan-kenton-mn0000743929
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Terry Gibbs,http://www.allmusic.com/artist/terry-gibbs-mn0000028692
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,The Manhattan Transfer,http://www.allmusic.com/artist/the-manhattan-transfer-mn0000674749
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Woody Herman,http://www.allmusic.com/artist/woody-herman-mn0000958076
+Billie Holiday,http://www.allmusic.com/artist/billie-holiday-mn0000079016,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Bud Freeman,http://www.allmusic.com/artist/bud-freeman-mn0000533843,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Frankie Trumbauer,http://www.allmusic.com/artist/frankie-trumbauer-mn0000168402,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Bix Beiderbecke,http://www.allmusic.com/artist/bix-beiderbecke-mn0000104461,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Jimmy Dorsey,http://www.allmusic.com/artist/jimmy-dorsey-mn0000296745,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+King Oliver,http://www.allmusic.com/artist/king-oliver-mn0000094639,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Louis Armstrong,http://www.allmusic.com/artist/louis-armstrong-mn0000234518,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Walter Page,http://www.allmusic.com/artist/walter-page-mn0000192415,Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Al Cohn,http://www.allmusic.com/artist/al-cohn-mn0000504169
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Dexter Gordon,http://www.allmusic.com/artist/dexter-gordon-mn0000208404
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Gene Ammons,http://www.allmusic.com/artist/gene-ammons-mn0000160198
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Gerry Mulligan,http://www.allmusic.com/artist/gerry-mulligan-mn0000542549
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,John Coltrane,http://www.allmusic.com/artist/john-coltrane-mn0000175553
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Lee Konitz,http://www.allmusic.com/artist/lee-konitz-mn0000227776
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Miles Davis,http://www.allmusic.com/artist/miles-davis-mn0000423829
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Paul Quinichette,http://www.allmusic.com/artist/paul-quinichette-mn0000028015
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Sonny Rollins,http://www.allmusic.com/artist/sonny-rollins-mn0000039656
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Stan Getz,http://www.allmusic.com/artist/stan-getz-mn0000742899
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Wardell Gray,http://www.allmusic.com/artist/wardell-gray-mn0000235881
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Zoot Sims,http://www.allmusic.com/artist/zoot-sims-mn0000228087
+Johnny Hodges,http://www.allmusic.com/artist/johnny-hodges-mn0000526407,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Bix Beiderbecke,http://www.allmusic.com/artist/bix-beiderbecke-mn0000104461,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Budd Johnson,http://www.allmusic.com/artist/budd-johnson-mn0000640725,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Frankie Trumbauer,http://www.allmusic.com/artist/frankie-trumbauer-mn0000168402,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Louis Armstrong,http://www.allmusic.com/artist/louis-armstrong-mn0000234518,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Pete Johnson,http://www.allmusic.com/artist/pete-johnson-mn0000315909,Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Archie Shepp,http://www.allmusic.com/artist/archie-shepp-mn0000503279
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Bennie Wallace,http://www.allmusic.com/artist/bennie-wallace-mn0000155788
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Branford Marsalis,http://www.allmusic.com/artist/branford-marsalis-mn0000045379
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,David Murray,http://www.allmusic.com/artist/david-murray-mn0000182855
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,"Eddie ""Lockjaw"" Davis",http://www.allmusic.com/artist/eddie-lockjaw-davis-mn0000166025
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Gerry Mulligan,http://www.allmusic.com/artist/gerry-mulligan-mn0000542549
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Ike Quebec,http://www.allmusic.com/artist/ike-quebec-mn0000082037
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Joe Lovano,http://www.allmusic.com/artist/joe-lovano-mn0000119629
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Red Holloway,http://www.allmusic.com/artist/red-holloway-mn0000449169
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Scott Hamilton,http://www.allmusic.com/artist/scott-hamilton-mn0000254879
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Sonny Rollins,http://www.allmusic.com/artist/sonny-rollins-mn0000039656
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Stan Getz,http://www.allmusic.com/artist/stan-getz-mn0000742899
+Bubber Miley,http://www.allmusic.com/artist/bubber-miley-mn0000528912,Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083
+Louis Armstrong,http://www.allmusic.com/artist/louis-armstrong-mn0000234518,Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083
+Fletcher Henderson,http://www.allmusic.com/artist/fletcher-henderson-mn0000152490,Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083
+Frankie Trumbauer,http://www.allmusic.com/artist/frankie-trumbauer-mn0000168402,Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083
+Sidney Bechet,http://www.allmusic.com/artist/sidney-bechet-mn0000033234,Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Art Pepper,http://www.allmusic.com/artist/art-pepper-mn0000505047
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Cannonball Adderley,http://www.allmusic.com/artist/cannonball-adderley-mn0000548338
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Clifford Brown,http://www.allmusic.com/artist/clifford-brown-mn0000789775
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Dave Brubeck,http://www.allmusic.com/artist/dave-brubeck-mn0000958533
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Dexter Gordon,http://www.allmusic.com/artist/dexter-gordon-mn0000208404
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Dizzy Gillespie,http://www.allmusic.com/artist/dizzy-gillespie-mn0000162677
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Freddie Hubbard,http://www.allmusic.com/artist/freddie-hubbard-mn0000798326
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,J.J. Johnson,http://www.allmusic.com/artist/jj-johnson-mn0000119111
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Max Roach,http://www.allmusic.com/artist/max-roach-mn0000396372
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Miles Davis,http://www.allmusic.com/artist/miles-davis-mn0000423829
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Phil Woods,http://www.allmusic.com/artist/phil-woods-mn0000848572
+Buster Bailey,http://www.allmusic.com/artist/buster-bailey-mn0000537604,Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363
+Louis Armstrong,http://www.allmusic.com/artist/louis-armstrong-mn0000234518,Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363
+Fletcher Henderson,http://www.allmusic.com/artist/fletcher-henderson-mn0000152490,Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363
+Sidney Bechet,http://www.allmusic.com/artist/sidney-bechet-mn0000033234,Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Budd Johnson,http://www.allmusic.com/artist/budd-johnson-mn0000640725
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Buddy Tate,http://www.allmusic.com/artist/buddy-tate-mn0000631071
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Dexter Gordon,http://www.allmusic.com/artist/dexter-gordon-mn0000208404
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Gene Ammons,http://www.allmusic.com/artist/gene-ammons-mn0000160198
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,J.J. Johnson,http://www.allmusic.com/artist/jj-johnson-mn0000119111
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,James Carter,http://www.allmusic.com/artist/james-carter-mn0000131227
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,John Coltrane,http://www.allmusic.com/artist/john-coltrane-mn0000175553
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Johnny Griffin,http://www.allmusic.com/artist/johnny-griffin-mn0000213510
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Lucky Thompson,http://www.allmusic.com/artist/lucky-thompson-mn0000302799
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,"Sam ""The Man"" Taylor",http://www.allmusic.com/artist/sam-the-man-taylor-mn0000284081
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Sonny Rollins,http://www.allmusic.com/artist/sonny-rollins-mn0000039656
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Wayne Shorter,http://www.allmusic.com/artist/wayne-shorter-mn0000250435
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Zoot Sims,http://www.allmusic.com/artist/zoot-sims-mn0000228087
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350
+John Coltrane,http://www.allmusic.com/artist/john-coltrane-mn0000175553,Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Bennie Moten,http://www.allmusic.com/artist/bennie-moten-mn0000129652,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Eddie Durham,http://www.allmusic.com/artist/eddie-durham-mn0000142845,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Harlan Leonard & His Rockets,http://www.allmusic.com/artist/harlan-leonard-his-rockets-mn0000663401,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Hot Lips Page,http://www.allmusic.com/artist/hot-lips-page-mn0000825032,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Jay McShann,http://www.allmusic.com/artist/jay-mcshann-mn0000225389,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Jimmy Blanton,http://www.allmusic.com/artist/jimmy-blanton-mn0000349181,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Jimmy Rushing,http://www.allmusic.com/artist/jimmy-rushing-mn0000089675,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Lucky Millinder,http://www.allmusic.com/artist/lucky-millinder-mn0000304518,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Pete Brown,http://www.allmusic.com/artist/pete-brown-mn0000720786,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Sidney Bechet,http://www.allmusic.com/artist/sidney-bechet-mn0000033234,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+The Coon-Sanders Nighthawks,http://www.allmusic.com/artist/the-coon-sanders-nighthawks-mn0000781317,Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Albert Ayler,http://www.allmusic.com/artist/albert-ayler-mn0000614339
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Benny Golson,http://www.allmusic.com/artist/benny-golson-mn0000135391
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Clarence Clemons,http://www.allmusic.com/artist/clarence-clemons-mn0000782375
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,"Eddie ""Lockjaw"" Davis",http://www.allmusic.com/artist/eddie-lockjaw-davis-mn0000166025
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Jimmy Forrest,http://www.allmusic.com/artist/jimmy-forrest-mn0000354769
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Junior Walker & the All-Stars,http://www.allmusic.com/artist/junior-walker-the-all-stars-mn0000302693
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,King Curtis,http://www.allmusic.com/artist/king-curtis-mn0000090803
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Lee Allen,http://www.allmusic.com/artist/lee-allen-mn0000142490
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,"Paul ""Hucklebuck"" Williams",http://www.allmusic.com/artist/paul-hucklebuck-williams-mn0000030817
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Red Prysock,http://www.allmusic.com/artist/red-prysock-mn0000883582
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Scott Hamilton,http://www.allmusic.com/artist/scott-hamilton-mn0000254879
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Stanley Turrentine,http://www.allmusic.com/artist/stanley-turrentine-mn0000012644
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,Wild Bill Moore,http://www.allmusic.com/artist/wild-bill-moore-mn0000821317
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,"Willis ""Gator"" Jackson",http://www.allmusic.com/artist/willis-gator-jackson-mn0000588132
+Earl Hines,http://www.allmusic.com/artist/earl-hines-mn0000455522,Jay McShann,http://www.allmusic.com/artist/jay-mcshann-mn0000225389
+Bennie Moten,http://www.allmusic.com/artist/bennie-moten-mn0000129652,Jay McShann,http://www.allmusic.com/artist/jay-mcshann-mn0000225389
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,Jay McShann,http://www.allmusic.com/artist/jay-mcshann-mn0000225389

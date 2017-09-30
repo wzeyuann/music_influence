@@ -1,0 +1,11 @@
+Charlie Parker,http://www.allmusic.com/artist/charlie-parker-mn0000211758,1930s - 1950s,Jazz|Classical,Bop|Big Band|Jazz Instrument|Saxophone Jazz|Chamber Music
+Art Tatum,http://www.allmusic.com/artist/art-tatum-mn0000505770,1920s - 1950s,Jazz,Swing|Jazz Instrument|Piano Jazz|Stride|Boogie-Woogie
+Buster Smith,http://www.allmusic.com/artist/buster-smith-mn0000643597,1950s,Jazz|R&B;,Swing|Bop|Early R&B;
+Count Basie,http://www.allmusic.com/artist/count-basie-mn0000127044,1920s - 1980s,Jazz,Big Band|Swing|Early Jazz Vocals|Jazz Instrument|Piano Blues|Piano Jazz|Vocal Jazz|Band Music
+Lester Young,http://www.allmusic.com/artist/lester-young-mn0000259529,1930s - 1950s,Jazz,Mainstream Jazz|Swing|Bop|Jazz Instrument|Saxophone Jazz|Cool
+Ben Webster,http://www.allmusic.com/artist/ben-webster-mn0000793227,1930s - 1970s,Jazz,Swing|Mainstream Jazz|Jazz Instrument|Saxophone Jazz
+Benny Carter,http://www.allmusic.com/artist/benny-carter-mn0000790083,1920s - 2000s,Jazz|Blues,Big Band|Mainstream Jazz|Swing|East Coast Blues|Jump Blues|Regional Blues|Jazz Instrument|Saxophone Jazz
+Coleman Hawkins,http://www.allmusic.com/artist/coleman-hawkins-mn0000776363,1920s - 1960s,Jazz,Bop|Early Jazz|Mainstream Jazz|Swing|Post-Bop|Jazz Instrument|Saxophone Jazz|Big Band
+Don Byas,http://www.allmusic.com/artist/don-byas-mn0000172350,1930s - 1960s,Jazz,Bop|Swing|Jazz Instrument|Saxophone Jazz
+Illinois Jacquet,http://www.allmusic.com/artist/illinois-jacquet-mn0000770629,1940s - 1980s,Jazz|Blues,Bop|Hard Bop|Jump Blues|Swing|Jazz Instrument|Saxophone Jazz
+Jay McShann,http://www.allmusic.com/artist/jay-mcshann-mn0000225389,1930s - 2000s,Jazz|Blues|Vocal,Big Band|Boogie-Woogie|Jazz Blues|Jump Blues|Piano Blues|Swing|Classic Female Blues|Urban Blues|Bop|Early Jazz|Jazz Instrument|Mainstream Jazz|Piano Jazz|Standards|Stride
