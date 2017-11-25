@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -6,8 +7,8 @@ from random import choice
 import sys
 from collections import deque
 
-# Use Charlie Parker's page as root
-BASE_URL = "http://www.allmusic.com/artist/charlie-parker-mn0000211758"
+# Use Bjork's page as root (to ensure we're dealing with unicode correctly)
+BASE_URL = 'https://www.allmusic.com/artist/bj%C3%B6rk-mn0000769444'
 
 # Path to files
 artist_file = "data/allmusic/artists.txt"
@@ -35,10 +36,10 @@ url_queue = deque([BASE_URL])
 while len(url_queue) != 0:
     print "Size of queue:", len(url_queue)
     print "Artists explored:", len(explored)
-    
+
     current_base_url = url_queue.popleft()
     current_url = current_base_url + '/related'
-    
+
     try:
         session = requests.Session()
 
@@ -48,7 +49,7 @@ while len(url_queue) != 0:
 
         # Sleep for random number of seconds
         sleep(choice([4,5]))
-        soup = BeautifulSoup(page.content, 'html.parser')
+        soup = BeautifulSoup(page.content.decode('utf-8'), 'html.parser')
 
         # Extract Name
         try:
@@ -81,9 +82,7 @@ while len(url_queue) != 0:
             styles = "NA"
 
         # Extract the musician's influencers (musicians who were influenced him)
-        # Only expand if the current artist belongs to the jazz genre
         try:
-#             if "Jazz" in genres:
             influencers_list = soup.find_all('section', attrs={'class':'related influencers'})[0]\
             .find_next('ul')\
             .find_all('li')
@@ -92,7 +91,7 @@ while len(url_queue) != 0:
                 influencer_name = influencer_item.text.strip()
                 influencer_link = influencer_item.a.attrs['href']
 
-                influence_relationship = [influencer_name, influencer_link, name, current_base_url]
+                influence_relationship = [influencer_name.encode('utf-8'), influencer_link.encode('utf-8'), name.encode('utf-8'), current_base_url.encode('utf-8')]
                 print influence_relationship
                 influence_writer.writerow(influence_relationship)
 
@@ -100,11 +99,10 @@ while len(url_queue) != 0:
                     explored.add(influencer_link)
                     url_queue.append(influencer_link)
         except:
-            print "Influencers Extraction Failure", current_url
+                print "Influencers Extraction Failure", current_url
 
         # Extract the musician's followers (musicians who were influenced by him)
         try:
-#             if "Jazz" in genres:
             followers_list = soup.find_all('section', attrs={'class':'related followers'})[0]\
             .find_next('ul')\
             .find_all('li')
@@ -113,7 +111,7 @@ while len(url_queue) != 0:
                 follower_name = follower_item.text.strip()
                 follower_link = follower_item.a.attrs['href']
 
-                follower_relationship = [name, current_base_url, follower_name, follower_link]
+                follower_relationship = [name.encode('utf-8'), current_base_url.encode('utf-8'), follower_name.encode('utf-8'), follower_link.encode('utf-8')]
                 print follower_relationship
                 influence_writer.writerow(follower_relationship)
 
@@ -122,13 +120,13 @@ while len(url_queue) != 0:
                     url_queue.append(follower_link)
         except:
             print "Followers Extraction Failure", current_url
-        
+
         influence_out.flush()
 
 
         # Write artist information
         try:
-            artist_info = [name, current_base_url, active, genres, styles]
+            artist_info = [name.encode('utf-8'), current_base_url.encode('utf-8'), active.encode('utf-8'), genres.encode('utf-8'), styles.encode('utf-8')]
             print artist_info
             artist_writer.writerow(artist_info)
             artist_out.flush()
@@ -139,3 +137,5 @@ while len(url_queue) != 0:
         # Sleep for just over an hour if blocked by server
         print "Request Failure: Sleeping for an hour..."
         sleep(60 * 61)
+
+    
