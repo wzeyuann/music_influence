@@ -65,14 +65,14 @@ for i in tqdm(range(FIRST_INDEX, LAST_INDEX + 1)):
                 except Exception as e:
                     print "Error making directory:", e
 
-                for item in json_obj:
+                for j, item in enumerate(json_obj):
                     sample_url = item['sample']
                     title = item['title']
 
                     # Download mp3 and save to folder corresponding to artist's id
                     # Remove / from filenames since it's an illegal character
                     try:
-                        urllib.request.urlretrieve(sample_url, WRITE_DIR + '{}/{}.mp3'.format(ids[i], title.encode('utf-8').replace('/', '')))
+                        urllib.request.urlretrieve(sample_url, WRITE_DIR + '{}/{}_{}.mp3'.format(ids[i], j, title.encode('utf-8').replace('/', '')))
                     except Exception as e:
                         print "Error downloading and writing mp3", title.encode('utf-8'), ids[i]
         # Otherwise sleep for an hour if error is anything other than 404
