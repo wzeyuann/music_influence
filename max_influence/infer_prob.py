@@ -1,3 +1,9 @@
+# Using cover song data from SecondHandSongs, infer transmission probabilities between artists based on 
+# cover song chains
+# Generates a file named 'cover_graph_prob.txt', which has a directed edge and corresponding edge probability per line
+#  Ex. A directed edge from node 1 to 12 with estimated transmission probability 0.5 is written as follows:
+#      1 12 0.5
+
 import numpy as np 
 import pandas as pd
 import networkx as nx
