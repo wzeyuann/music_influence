@@ -6,7 +6,6 @@ import networkx as nx
 import numpy as np
 from random import random
 from tqdm import tqdm
-from joblib import Parallel, delayed
 
 def loadGraph(filename):
 	'''Load in .txt file containing u v p per line as a NetworkX DiGraph
@@ -95,7 +94,7 @@ def greedyAlgorithm(G, m=10, k=5):
 	f_by_iteration = [0]
 	S = []
 
-	for i in range(k):
+	for i in tqdm(range(k)):
 		# Store estimates for f(S) in a dictionary keyed by node number
 		f = {}
 
@@ -109,6 +108,7 @@ def greedyAlgorithm(G, m=10, k=5):
 		f_by_iteration.append(max(f.values()))
 		# Print marginal contribution at each step
 		print "f_S(a) at step", i + 1, "is", f_by_iteration[-1] - f_by_iteration[-2]
+		print "S at current step", S
 
 	return S
 
@@ -117,4 +117,4 @@ print('Loading network')
 G = loadGraph('../graphs/cover_graph_prob.txt')
 
 # 5d. Pick 5 initial adopters to maximize the expected number of adoptions using the modified Greedy algorithm
-print greedyAlgorithm(G, m=10, k=5)
+print greedyAlgorithm(G, m=5, k=10)
