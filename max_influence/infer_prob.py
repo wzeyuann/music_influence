@@ -41,6 +41,11 @@ for song, song_cover_df in tqdm(grouped_by_id):
 print "Cover graph info:"
 print nx.info(cover_graph)
 
+# Write cover graph and graph with edges reversed (for PageRank) to .txt files
+nx.write_edgelist(cover_graph, '../networks/cover_graph.txt')
+nx.write_edgelist(cover_graph.reverse(), '../networks/cover_graph_reversed.txt')
+
+
 num_nodes = len(cover_graph.nodes())
 
 # Initialize (dict of dict) lookup tables for counts of number of activations, accesses, estimated probabilities for each edge
@@ -109,7 +114,7 @@ for i in cover_graph.nodes():
 
 print "Writing edges with probabilities to file"
 # Write edges with probabilities to .txt file
-with open('../graphs/cover_graph_prob.txt', 'w') as f:
+with open('../networks/cover_graph_prob.txt', 'w') as f:
     for i in cover_graph.nodes():
         for j in cover_graph.neighbors(i):
             f.write('{} {} {}\n'.format(i, j, p_hat[i][j]))
