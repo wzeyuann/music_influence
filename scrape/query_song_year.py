@@ -2,7 +2,7 @@ import pandas as pd
 import discogs_client
 import os
 from time import sleep
-from tqdm import tqdm_notebook
+from tqdm import tqdm
 
 # Need to have credentials.py with str variable containing user token for Discogs API
 from credentials import USER_TOKEN
@@ -34,10 +34,10 @@ artist_song_df['year'] = None
 # Initialize client
 d = discogs_client.Client('HarryXueThesis/0.1', user_token=USER_TOKEN)
 
-for index, row in tqdm_notebook(artist_song_df.iterrows()):    
+for index, row in tqdm(artist_song_df.iterrows()):    
     # Query Discogs API for artist and song name
     try:
-        results = d.search(u'{} - {}'.format(row['artist_name'], row[u'song_name']), type='release')
+        results = d.search(u'{} - {}'.format(unicode(row['artist_name'], 'utf-8'), unicode(row[u'song_name'], 'utf-8')), type='release')
         
     # Get year corresponding to first result
         if len(results) > 0:
