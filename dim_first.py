@@ -5,16 +5,15 @@ from gensim.models.wrappers.dtmmodel import DtmModel
 import numpy as np
 import pandas as pd
 from time import time
-from tqdm import tqdm
 
 # Set path to dtm binary
 dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
 # Get paths to bow directories for each artist
-BOW_DIR = '/n/regal/rush_lab/xue/bow_500/'
+BOW_DIR = '/n/regal/rush_lab/xue/bow_1000/'
 
 # Model settings
-NUM_TOPICS = 5
-MODEL_SAVE_NAME = 'dim_bow500_5topics_firsttrack_songreleasedate'
+NUM_TOPICS = 10
+MODEL_SAVE_NAME = 'dim_bow1000_{}topics_firsttrack_songreleasedate'.format(NUM_TOPICS)
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -31,7 +30,7 @@ bow_path_by_artist = []
 
 ids_in_songs = set(songs['artist_id'])
 
-for artist_id in tqdm(os.listdir(BOW_DIR)):
+for artist_id in os.listdir(BOW_DIR):
     song_filename = os.listdir(BOW_DIR + artist_id)[0].decode('utf-8')
     
     # Check if song year is missing or artist is missing from song df
@@ -45,7 +44,7 @@ print "Number of songs:", len(bow_path_by_artist)
 bow_path_by_artist.sort(key= lambda x: songs[songs['artist_id'] == x[0]]['year'].iloc[0])
 
 # Create counter for number of songs for each year 
-year_counter = {int(k) : 0 for k in np.unique(songs['year'])}
+year_counter = {int(k) : 0 for k in np.unique(zip(*bow_path_by_artist)[2])}
 
 for id, path, year in bow_path_by_artist:
     year_counter[year] += 1
