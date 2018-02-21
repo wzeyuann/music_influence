@@ -5,44 +5,55 @@ from gensim.models.wrappers.dtmmodel import DtmModel
 import numpy as np
 import pandas as pd
 from time import time
+from tqdm import tqdm
 
 # Set path to dtm binary
-# dtm_path = "/n/home09/hxue/dtm/dtm/main"
-dtm_path = "/Users/harryxue/Desktop/dtm/bin/dtm-darwin64"
+dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
 # Get paths to bow directories for each artist
-# BOW_DIR = '/n/regal/rush_lab/xue/bow_500/'
-BOW_DIR = 'data/features/bow_500/'
-MODEL_SAVE_NAME = 'dim_bow500_firsttrack'
+BOW_DIR = '/n/regal/rush_lab/xue/bow_500/'
+
+# Model settings
+NUM_TOPICS = 5
+MODEL_SAVE_NAME = 'dim_bow500_5topics_firsttrack_songreleasedate'
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 logging.debug("test")
 
-# Load artist info
-artists = pd.read_csv('data/allmusic/artists_cleaned.csv')
+# Load song info
+songs = pd.read_csv('data/artist_song_list_years_cleaned.csv')
 
-# list of (artist_id, path) tuples
+# Add a column with a ".npy" extension
+songs['name_ext'] = songs['name_no_ext'].apply(lambda x: (x + '.npy')).str.decode('utf-8')
+
+# list of (artist_id, path, year) tuples
 bow_path_by_artist = []
 
-for artist_id in os.listdir(BOW_DIR):
-    # Check if active_start is missing
-    if int(np.isnan(float(artists[artists['id'] == int(artist_id)] ['active_start']))) == 0:
-        # save (artist_id, path, active_start) tuple
-        bow_path_by_artist.append((int(artist_id), BOW_DIR + artist_id + '/', int(artists[artists['id'] == int(artist_id)] ['active_start'])))
+ids_in_songs = set(songs['artist_id'])
 
-# Order list by active period start for artist
-bow_path_by_artist.sort(key= lambda x: int(artists[artists['id'] == x[0]] ['active_start']))
+for artist_id in tqdm(os.listdir(BOW_DIR)):
+    song_filename = os.listdir(BOW_DIR + artist_id)[0].decode('utf-8')
+    
+    # Check if song year is missing or artist is missing from song df
+    if int(artist_id) in ids_in_songs and songs[songs['name_ext'] == song_filename]['year'].iloc[0] != 0:
+        # save (artist_id, path, year) tuple
+        bow_path_by_artist.append((int(artist_id), BOW_DIR + artist_id + '/', songs[songs['name_ext'] == song_filename]['year'].iloc[0]))
 
-# Create counter for number of songs for each decade of active_start
-decade_counter = {int(k) : 0 for k in np.unique(artists['active_start'][~np.isnan(artists['active_start'])])}
+print "Number of songs:", len(bow_path_by_artist)
+
+# Order list by year
+bow_path_by_artist.sort(key= lambda x: songs[songs['artist_id'] == x[0]]['year'].iloc[0])
+
+# Create counter for number of songs for each year 
+year_counter = {int(k) : 0 for k in np.unique(songs['year'])}
 
 for id, path, year in bow_path_by_artist:
-    decade_counter[year] += 1
+    year_counter[year] += 1
 
-# Lookup table for time_slice index v. decade
-time_slice_dict = {idx : year for (idx, year) in enumerate(sorted(decade_counter))}
+# Lookup table for time_slice index v. year
+time_slice_dict = {idx : year for (idx, year) in enumerate(sorted(year_counter))}
 # List of counts for each time slice for DIM
-time_seq = [decade_counter[key] for key in sorted(decade_counter.keys())]
+time_seq = [year_counter[key] for key in sorted(year_counter.keys())]
 
 print "Count of artists per each time slice:"
 print time_seq
@@ -63,7 +74,7 @@ start = time()
 model = DtmModel(dtm_path,
                  corpus,
                  time_seq,
-                 num_topics=5,
+                 num_topics=NUM_TOPICS,
                  initialize_lda=True,
                  model='fixed')
 
