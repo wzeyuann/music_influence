@@ -36,7 +36,7 @@ for artist_id in os.listdir(BOW_DIR):
     # Check if song year is missing or artist is missing from song df
     if int(artist_id) in ids_in_songs and songs[songs['name_ext'] == song_filename]['year'].iloc[0] != 0:
         # save (artist_id, path, year) tuple
-        bow_path_by_artist.append((int(artist_id), BOW_DIR + artist_id + '/', songs[songs['name_ext'] == song_filename]['year'].iloc[0]))
+        bow_path_by_artist.append((int(artist_id), artist_id + '/', songs[songs['name_ext'] == song_filename]['year'].iloc[0]))
 
 print "Number of songs:", len(bow_path_by_artist)
 
