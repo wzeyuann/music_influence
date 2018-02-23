@@ -5,7 +5,7 @@ from gensim.models.wrappers.dtmmodel import DtmModel
 import numpy as np
 import pandas as pd
 from time import time
-import pickle as pk
+import pickle
 
 # Set path to dtm binary
 dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
