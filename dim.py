@@ -9,12 +9,13 @@ import pickle
 
 # Set path to dtm binary
 dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
-# Get paths to bow directories for each artist
-BOW_DIR = '/n/regal/rush_lab/xue/bow_500/'
 
 # Model settings
 NUM_TOPICS = 5
-MODEL_SAVE_NAME = 'dim_bow500_{}topics_alltracks_songreleasedate'.format(NUM_TOPICS)
+BOW_DIM = 1000
+# Get paths to bow directories for each artist
+BOW_DIR = '/n/regal/rush_lab/xue/bow_{}/'.format(BOW_DIM)
+MODEL_SAVE_NAME = 'dim_bow{}_{}topics_alltracks_songreleasedate'.format(BOW_DIM, NUM_TOPICS)
 
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
@@ -33,10 +34,12 @@ ids_in_songs = set(songs['artist_id'])
 
 for artist_id in os.listdir(BOW_DIR):
     for song in os.listdir(BOW_DIR + artist_id):
+        song_filename = song.decode('utf-8')
+
         # Check if song year is missing or artist is missing from song df
         if int(artist_id) in ids_in_songs and songs[songs['name_ext'] == song_filename]['year'].iloc[0] != 0:
             # save (artist_id, path, year) tuple
-            bow_path_by_artist.append((int(artist_id), BOW_DIR + artist_id + '/' + song, songs[songs['name_ext'] == song_filename]['year'].iloc[0]))
+            bow_path_by_artist.append((int(artist_id), artist_id + '/' + song, songs[songs['name_ext'] == song_filename]['year'].iloc[0]))
 
 print "Number of songs:", len(bow_path_by_artist)
 
@@ -61,7 +64,7 @@ class BoWCorpus(object):
     def __iter__(self, bow_path_by_artist=bow_path_by_artist):
         for artist_id, song_path, year in bow_path_by_artist:
             # Load features for each song
-            bow = np.load(song_path)
+            bow = np.load(BOW_DIR + song_path)
             # Convert to sparse encoding
             bow_sparse = [(idx, count) for (idx, count) in enumerate(bow) if count > 0]
             yield bow_sparse

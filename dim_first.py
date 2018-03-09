@@ -5,6 +5,7 @@ from gensim.models.wrappers.dtmmodel import DtmModel
 import numpy as np
 import pandas as pd
 from time import time
+import pickle
 
 # Set path to dtm binary
 dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
@@ -12,7 +13,7 @@ dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
 BOW_DIR = '/n/regal/rush_lab/xue/bow_1000/'
 
 # Model settings
-NUM_TOPICS = 10
+NUM_TOPICS = 5
 MODEL_SAVE_NAME = 'dim_bow1000_{}topics_firsttrack_songreleasedate'.format(NUM_TOPICS)
 
 logger = logging.getLogger()
@@ -57,11 +58,14 @@ time_seq = [year_counter[key] for key in sorted(year_counter.keys())]
 print "Count of artists per each time slice:"
 print time_seq
 
+# Save list of paths
+pickle.dump(bow_path_by_artist, open(MODEL_SAVE_NAME + "bow_paths.pk", "wb" ))
+
 class BoWCorpus(object):
     def __iter__(self, bow_path_by_artist=bow_path_by_artist):
         for artist_id, artist_path, year in bow_path_by_artist:
             # Extract features for first song in the directory
-            bow = np.load(artist_path + os.listdir(artist_path)[0])
+            bow = np.load(BOW_DIR + artist_path + os.listdir(BOW_DIR + artist_path)[0])
             # Convert to sparse encoding
             bow_sparse = [(idx, count) for (idx, count) in enumerate(bow) if count > 0]
             yield bow_sparse
