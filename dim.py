@@ -87,4 +87,3 @@ print 'Model fit in', ((time() - start) / 60.) / 60., 'hours'
 
 # Save list of paths
 pickle.dump(bow_path_by_artist, open(MODEL_SAVE_NAME + "bow_paths.pk", "wb" ))
-
