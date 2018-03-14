@@ -52,7 +52,7 @@ encoded_r = convnet(right_input)
 # Merge two encoded inputs with the l1 distance between them
 L1_distance = lambda x: K.abs(x[0]-x[1])
 both = merge([encoded_l,encoded_r], mode = L1_distance, output_shape=lambda x: x[0])
-prediction = Dense(1,activation='sigmoid',bias_initializer=b_init)(both)
+prediction = Dense(1,activation='sigmoid')(both)
 siamese_net = Model(input=[left_input,right_input],output=prediction)
 #optimizer = SGD(0.0004,momentum=0.6,nesterov=True,decay=0.0003)
 
