@@ -11,7 +11,7 @@ import pickle
 dtm_path = "/n/home09/hxue/dtm/dtm/dtm"
 
 # Model settings
-NUM_TOPICS = 10
+NUM_TOPICS = 1
 BOW_DIM = 1000
 # Get paths to bow directories for each artist
 BOW_DIR = '/n/regal/rush_lab/xue/bow_{}/'.format(BOW_DIM)

@@ -10,11 +10,12 @@ import numpy as np
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import pickle
 
 # Set seed
 random.seed(1234)
 
-FEATURE_DIR = '../data/features/mel_spec_first/'
+FEATURE_DIR = '/n/regal/rush_lab/xue/mel_spec_first/'
 
 # Use 128x128 samples (~3 second samples) to speed up training
 # TODO: Use full 30 second samples
@@ -22,39 +23,27 @@ INPUT_DIM = (128, 128, 1)
 # Number of frames to sample
 N_FRAMES = INPUT_DIM[1]
 
-MODEL_SAVE_NAME = 'Siamese_FirstTrack_{}x{}.hdf5'.format(INPUT_DIM[0], INPUT_DIM[1])
+MODEL_SAVE_NAME = 'Siamese_FirstTrack_{}x{}.model'.format(INPUT_DIM[0], INPUT_DIM[1])
 
 # Training configurations
 BATCH_SIZE = 32
 
 # Adapted from https://sorenbouma.github.io/blog/oneshot/
-def W_init(shape,name=None):
-    """Initialize weights as in paper"""
-    values = random.normal(loc=0,scale=1e-2,size=shape)
-    return K.variable(values,name=name)
-
-def b_init(shape,name=None):
-    """Initialize bias as in paper"""
-    values=random.normal(loc=0.5,scale=1e-2,size=shape)
-    return K.variable(values,name=name)
-
 input_shape = INPUT_DIM
 left_input = Input(input_shape)
 right_input = Input(input_shape)
 
 # Build convnet to use in each siamese 'leg'
 convnet = Sequential()
-convnet.add(Conv2D(64,(10,10),activation='relu',input_shape=input_shape,
-                   kernel_initializer=W_init,kernel_regularizer=l2(2e-4)))
+convnet.add(Conv2D(64,(10,10),activation='relu',input_shape=input_shape, kernel_regularizer=l2(2e-4)))
+convnet.add(MaxPooling2D()) 
+convnet.add(Conv2D(128,(7,7),activation='relu', kernel_regularizer=l2(2e-4)))
 convnet.add(MaxPooling2D())
-convnet.add(Conv2D(128,(7,7),activation='relu',
-                   kernel_regularizer=l2(2e-4),kernel_initializer=W_init,bias_initializer=b_init))
+convnet.add(Conv2D(128,(4,4),activation='relu',kernel_regularizer=l2(2e-4)))
 convnet.add(MaxPooling2D())
-convnet.add(Conv2D(128,(4,4),activation='relu',kernel_initializer=W_init,kernel_regularizer=l2(2e-4),bias_initializer=b_init))
-convnet.add(MaxPooling2D())
-convnet.add(Conv2D(256,(4,4),activation='relu',kernel_initializer=W_init,kernel_regularizer=l2(2e-4),bias_initializer=b_init))
+convnet.add(Conv2D(256,(4,4),activation='relu',kernel_regularizer=l2(2e-4)))
 convnet.add(Flatten())
-convnet.add(Dense(4096,activation="sigmoid",kernel_regularizer=l2(1e-3),kernel_initializer=W_init,bias_initializer=b_init))
+convnet.add(Dense(4096,activation="sigmoid",kernel_regularizer=l2(1e-3)))
 
 # Encode each of the two inputs into a vector with the convnet
 encoded_l = convnet(left_input)
@@ -132,6 +121,10 @@ history = siamese_net.fit_generator(generator = generator(pos_train_rel, neg_tra
                     validation_data = generator(pos_val_rel, neg_val_rel),
                     validation_steps = len(pos_val_rel)//BATCH_SIZE,
                     callbacks=[early_stopping, checkpoint])
+
+# Save history callback object
+with open('history.pickle', 'wb') as handle:
+    pickle.dump(history, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 # Plots of training history
 plt.plot(history.history['val_acc'])
