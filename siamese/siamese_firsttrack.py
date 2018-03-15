@@ -9,7 +9,6 @@ import numpy.random as random
 import numpy as np
 import pandas as pd
 import os
-import matplotlib.pyplot as plt
 import pickle
 
 # Set seed
@@ -124,33 +123,4 @@ history = siamese_net.fit_generator(generator = generator(pos_train_rel, neg_tra
 
 # Save history callback object
 with open('history.pickle', 'wb') as handle:
-    pickle.dump(history, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
-# Plots of training history
-plt.plot(history.history['val_acc'])
-plt.title('Validation Accuracy')
-plt.xlabel("Epoch")
-plt.ylabel("Accuracy")
-plt.savefig('val_accuracy.png')
-plt.close()
-
-plt.plot(history.history['acc'])
-plt.title('Training Accuracy')
-plt.xlabel("Epoch")
-plt.ylabel("Accuracy")
-plt.savefig('train_accuracy.png')
-plt.close()
-
-plt.plot(history.history['val_loss'])
-plt.title('Validation Loss')
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
-plt.savefig('val_loss.png')
-plt.close()
-
-plt.plot(history.history['loss'])
-plt.title('Training Loss')
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
-plt.savefig('train_loss.png')
-plt.close()
+    pickle.dump(history.history, handle)
