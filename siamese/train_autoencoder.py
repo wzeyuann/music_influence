@@ -6,6 +6,7 @@ from keras.layers import Conv2D, MaxPooling2D, UpSampling2D
 from keras.optimizers import Adadelta
 from keras.callbacks import Callback, ModelCheckpoint
 from sklearn.model_selection import train_test_split
+from keras.callbacks import Callback, ModelCheckpoint, EarlyStopping
 import matplotlib.pyplot as plt
 import pickle
 
@@ -14,14 +15,15 @@ SEED = 1234
 np.random.seed(SEED)
 
 INPUT_SHAPE = (132, 1300, 1)
-BATCH_SIZE = 32
+BATCH_SIZE = 8
 MODEL_SAVE_NAME = "autoencoder.model"
-FEATURE_DIR = "/home/ubuntu/music_influence/data/features/mel_spec_first"
+FEATURE_DIR = "/home/ubuntu/music_influence/data/features/mel_spec_first/"
 # FEATURE_DIR = "../data/features/mel_spec_first/"
 
 # Train-val split
-all_filenames = os.listdir(FEATURE_DIR)
-train, val = train_test_split(all_filenames, test_size=0.25, random_state=SEED)
+#all_filenames = os.listdir(FEATURE_DIR)
+#train, val = train_test_split(all_filenames, test_size=0.25, random_state=SEED)
+train, val = np.load('autoencoder_split/train_filenames.npy'), np.load('autoencoder_split/val_filenames.npy')
 
 # Architecture adapted from 
 # https://blog.keras.io/building-autoencoders-in-keras.html and
@@ -52,6 +54,7 @@ epochs = 50
 decay_rate = learning_rate / epochs
 adadelta = Adadelta(lr=learning_rate, rho=0.95, epsilon=1e-08, decay=decay_rate)
 
+<<<<<<< HEAD
 # Create a custom callback to stop training the autoencoder when a val_loss of 0.1 is reached
 class EarlyStoppingByLossVal(Callback):
     def __init__(self, monitor='val_loss', value=0.1, verbose=0):
@@ -67,14 +70,15 @@ class EarlyStoppingByLossVal(Callback):
                 print("Epoch %05d: early stopping THR" % epoch)
             self.model.stop_training = True
 
+
 callbacks = [
-    EarlyStoppingByLossVal(monitor='val_loss', value=0.1, verbose=1),
+    EarlyStopping(monitor='val_loss', patience=5),
     ModelCheckpoint(MODEL_SAVE_NAME, monitor='val_loss', save_best_only=True, verbose=0),
 ]
 
 # Build the full autoencoder
 autoencoder = Model(input_img, decoded)
-autoencoder.compile(optimizer=adadelta, loss='binary_crossentropy')
+autoencoder.compile(optimizer=adadelta, loss='mean_squared_error')
 autoencoder.summary()
 
 def generator(paths, batch_size=BATCH_SIZE):
@@ -98,7 +102,7 @@ def generator(paths, batch_size=BATCH_SIZE):
 # Train model
 history = autoencoder.fit_generator(
                     generator = generator(train),
-                    epochs = 50,
+                    epochs = 100,
                     steps_per_epoch = len(train)//BATCH_SIZE,
                     validation_data = generator(val),
                     validation_steps = len(val)//BATCH_SIZE,
